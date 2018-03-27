@@ -4,7 +4,7 @@ Stoplight Prism
 ==============================
 A docker image for [**Prism**](http://stoplight.io/platform/prism/), the command-line tool for [**Stoplight.io**](http://stoplight.io/).
 
-- [Dockerfile source](https://github.com/BigstickCarpet/docker-images/blob/master/Dockerfile)
+- [Dockerfile source](https://github.com/BigstickCarpet/docker-images/blob/master/stoplight-prism/Dockerfile)
 - [Getting started with Prism](https://help.stoplight.io/prism/getting-started)
 - [Integrating Prism into CI](https://help.stoplight.io/scenarios/conducting-scenarios-outside-of-stoplight/running-scenarios)
 
