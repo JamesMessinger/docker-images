@@ -25,8 +25,7 @@ You can run this Docker image just like the Prism CLI, passing it whatever argum
 > **NOTE:** If your prism command needs to access local files, then mount them in the `/app` directory
 
 ```
-docker run bigstickcarpet/stoplight-prism \
-  -v $(pwd):/app \
+docker run -v $(pwd):/app bigstickcarpet/stoplight-prism \
   conduct collection.json \
   --spec spec.json \
   --env environment.json
