@@ -1,4 +1,4 @@
-![Docker Logo](http://bigstickcarpet.com/docker-images/img/docker-logo.png)
+![Docker Logo](https://jamesmessinger.com/docker-images/img/docker-logo.png)
 
 Docker Images
 ==============================

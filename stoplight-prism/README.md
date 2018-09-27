@@ -1,20 +1,20 @@
-![Stoplight Logo](http://bigstickcarpet.com/docker-images/img/stoplight-logo.png)
+![Stoplight Logo](https://jamesmessinger.com/docker-images/img/stoplight-logo.png)
 
 Stoplight Prism
 ==============================
 A docker image for [**Prism**](http://stoplight.io/platform/prism/), the command-line tool for [**Stoplight.io**](http://stoplight.io/).
 
-- [Dockerfile source](https://github.com/BigstickCarpet/docker-images/blob/master/stoplight-prism/Dockerfile)
+- [Dockerfile source](https://github.com/James-Messinger/docker-images/blob/master/stoplight-prism/Dockerfile)
 - [Getting started with Prism](https://help.stoplight.io/prism/getting-started)
 - [Integrating Prism into CI](https://help.stoplight.io/scenarios/conducting-scenarios-outside-of-stoplight/running-scenarios)
 
 
 Installation
 -----------------------------
-Pull the [`bigstickcarpet/stoplight-prism` image](https://hub.docker.com/r/bigstickcarpet/stoplight-prism/) from DockerHub
+Pull the [`jamesmessinger/stoplight-prism` image](https://hub.docker.com/r/jamesmessinger/stoplight-prism/) from DockerHub
 
 ```
-docker pull bigstickcarpet/stoplight-prism
+docker pull jamesmessinger/stoplight-prism
 ```
 
 
@@ -26,7 +26,7 @@ You can run this Docker image just like the Prism CLI:
 
 ```
 docker run -v $(pwd):/app \
-  bigstickcarpet/stoplight-prism \
+  jamesmessinger/stoplight-prism \
   conduct collection.json \
   --spec spec.json \
   --env environment.json
@@ -38,13 +38,13 @@ Building Locally
 To build/test the image locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/bigstickcarpet/docker-images.git`
+`git clone https://github.com/James-Messinger/docker-images.git`
 
 2. __Build the image__<br>
-`docker build --tag bigstickcarpet/stoplight-prism:latest stoplight-prism`
+`docker build --tag jamesmessinger/stoplight-prism:latest stoplight-prism`
 
 3. __Run the image__<br>
 See the [usage section](#usage) above
 
 4. __Publish the image to DockerHub__<br>
-`docker push bigstickcarpet/stoplight-prism:latest`
+`docker push jamesmessinger/stoplight-prism:latest`
