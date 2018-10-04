@@ -4,7 +4,7 @@ Stoplight Prism
 ==============================
 A docker image for [**Prism**](http://stoplight.io/platform/prism/), the command-line tool for [**Stoplight.io**](http://stoplight.io/).
 
-- [Dockerfile source](https://github.com/James-Messinger/docker-images/blob/master/stoplight-prism/Dockerfile)
+- [Dockerfile source](https://github.com/JamesMessinger/docker-images/blob/master/stoplight-prism/Dockerfile)
 - [Getting started with Prism](https://help.stoplight.io/prism/getting-started)
 - [Integrating Prism into CI](https://help.stoplight.io/scenarios/conducting-scenarios-outside-of-stoplight/running-scenarios)
 
@@ -38,7 +38,7 @@ Building Locally
 To build/test the image locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/James-Messinger/docker-images.git`
+`git clone https://github.com/JamesMessinger/docker-images.git`
 
 2. __Build the image__<br>
 `docker build --tag jamesmessinger/stoplight-prism:latest stoplight-prism`

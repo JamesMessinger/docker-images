@@ -4,7 +4,7 @@ Swagger-Diff
 ==============================
 A docker image for [**Swagger::Diff**](https://github.com/civisanalytics/swagger-diff), by [**Civis Analytics**](https://new.civisanalytics.com/).
 
-- [Dockerfile source](https://github.com/James-Messinger/docker-images/blob/master/swagger-diff/Dockerfile)
+- [Dockerfile source](https://github.com/JamesMessinger/docker-images/blob/master/swagger-diff/Dockerfile)
 - [swagger-diff CLI reference](https://github.com/civisanalytics/swagger-diff#command-line)
 - [Using Swagger to detect breaking API changes](https://swagger.io/blog/using-swagger-to-detect-breaking-api-changes/)
 
@@ -44,7 +44,7 @@ Building Locally
 To build/test the image locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/James-Messinger/docker-images.git`
+`git clone https://github.com/JamesMessinger/docker-images.git`
 
 2. __Build the image__<br>
 `docker build --tag jamesmessinger/swagger-diff:latest swagger-diff`
